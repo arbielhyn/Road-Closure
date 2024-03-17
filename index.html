@@ -1,0 +1,62 @@
+<!-------w------------
+
+    Assignment 4
+    Name: Arbie Lacanlale
+    Date: Febuary 1, 2024
+    Description:
+
+--------------------->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <title>Winnipeg Lane Closures</title>
+</head>
+<body>
+    
+    <main class="container">
+        <form class="search" id="search">
+            <div class="field">
+                    <h1>Winnipeg Lane Closures</h1>
+                    <h3>Stay informed about lane closures in Winnipeg</h3>
+                <div class="control">
+                    <input class="input" name="searchInfo" id="searchInfo" placeholder="Search for a Street Name">
+                    <button class="button is-primary" type="submit">Search</button>
+                </div>
+            </div>
+            <div class="explanation"></div>
+        </form>
+    
+        <table class="info">
+            <thead class="hidden">
+                <tr>
+                    <th>Status</th>
+                    <th>Primary Street</th>
+                    <th>Cross Street</th>
+                    <th>Boundaries</th>
+                    <th>Direction</th>
+                    <th>Date Closed - from</th>
+                    <th>Date Closed - to</th>
+                </tr>
+            </thead>
+            <tbody class="results">
+                <!-- Placeholder  -->
+            </tbody>
+        </table>
+
+        <p>
+            Data provided by the
+            <a href="https://data.winnipeg.ca/">City of Winnipeg Open Data catalogue</a>
+            . 
+        </p>
+    </main>
+<script src="script.js"></script>
+</body>
+</html>
